@@ -10,6 +10,17 @@ import SwiftUI
 @main
 struct movieAppApp: App {
     var body: some Scene {
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         WindowGroup {
             ContentView()
         }
