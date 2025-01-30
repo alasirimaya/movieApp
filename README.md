@@ -1,13 +1,23 @@
 📽️ Movie App
 A SwiftUI-based iOS application that allows users to explore, search, and manage their favorite movies. This app integrates with an API to fetch movie data and supports CRUD operations for managing user movie lists.
 
+
+
+___
+
 🚀 Features
 
 ✅ User Authentication – Sign in securely using email & password.
+
 ✅ Movie Exploration – Browse a vast collection of movies.
+
 ✅ Search Functionality – Find movies instantly by title.
+
 ✅ CRUD Operations – Users can create, read, update, and delete movies from their watchlist.
+
 ✅ API Integration – Fetch movie details using an external API.
+
+___
 
 🛠️ Tech Stack
 
@@ -36,6 +46,9 @@ URLSession.shared.dataTask(with: url) { data, response, error in
         }
     }
 }.resume()
+
+___
+
 🔄 CRUD Operations
 
 1️⃣ Create (Add a Movie to Watchlist)
@@ -56,6 +69,8 @@ func updateMovie(movie: Movie) {
 func deleteMovie(movie: Movie) {
     watchlist.removeAll { $0.id == movie.id }
 }
+___
+
 🧪 Unit Testing 
 
 The app includes unit tests to verify critical functionalities.
@@ -71,6 +86,8 @@ func testFetchMovies() {
     
     wait(for: [expectation], timeout: 5.0)
 }
+___
+
 📌 Installation & Setup
 
 1️⃣ Clone the repository:
