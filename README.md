@@ -93,7 +93,10 @@ ___
 1️⃣ Clone the repository:
 
 git clone https://github.com/your-username/movie-app.git
+
+
 2️⃣ Open movieApp.xcodeproj in Xcode.
+
 3️⃣ Run the app on a simulator or device.
 
 📜 License
